@@ -1,0 +1,47 @@
+/*designing the ul*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+/*designing the li*/
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: lightgray;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*letting the user know what page they're on attaching the active */
+li a:active {
+    background-color: lightgrey;
+}
+
+/*setting the navbar color when they haver*/
+li a:hover {
+    background-color: blue;
+}
+
+body {
+    background-color: gray;
+}
+
+ol {
+    list-style-type: none;
+    justify-content: left;
+    padding: 0;
+}
+
+.edu {
+    outline-style: solid;
+}
