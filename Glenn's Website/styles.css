@@ -33,7 +33,7 @@ li a:hover {
 }
 
 body {
-    background-color: gray;
+    background-color: silver;
 }
 
 ol {
@@ -42,6 +42,4 @@ ol {
     padding: 0;
 }
 
-.edu {
-    outline-style: solid;
-}
+
